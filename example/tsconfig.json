@@ -1,16 +1,13 @@
 {
-	"include": ["client"],
 	"compilerOptions": {
 		"strict": true,
 		"target": "ESNext",
 		"module": "ESNext",
+		"rootDir": "src",
+		"outDir": "build",
 		"moduleResolution": "node",
 		"allowSyntheticDefaultImports": true,
 		"esModuleInterop": true,
-		"jsx": "preserve",
-		"jsxImportSource": "solid-js",
-		"types": ["vite/client"],
-		"noEmit": true,
 		"isolatedModules": true,
 		"noImplicitAny": true,
 		"pretty": true,

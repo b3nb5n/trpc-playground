@@ -1,0 +1,11 @@
+{
+	"name": "playground-example",
+	"packageManager": "yarn@3.4.1",
+	"dependencies": {
+		"@trpc/server": "^10.9.1",
+		"trpc-dev-tools": "file:.."
+	},
+	"devDependencies": {
+		"typescript": "^4.9.5"
+	}
+}

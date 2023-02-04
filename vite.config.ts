@@ -3,5 +3,6 @@ import solidPlugin from 'vite-plugin-solid';
 
 export default defineConfig({
 	plugins: [solidPlugin()],
-	build: { outDir: 'build' },
+	root: 'client',
+	build: { outDir: '../build/public' },
 });
